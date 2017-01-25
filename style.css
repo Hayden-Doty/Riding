@@ -4,7 +4,6 @@ body {background-color: #f7f9fc;}
 body{color:black;}
 A {COLOR: #590f16;}
 A:hover {color: #fbff38;}
-img.huh{position: absolute;
-	max-width: 80%;
-	top: 10%;
-	left: 10%;}
+img.huh{float: center;}
+
+	
