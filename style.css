@@ -1,7 +1,7 @@
 h1 {text-align: center;color: #3b5d3a;} 
 h1{font-family: "Courier New", Monospace;}
 body {background-color: #f7f9fc;}
-body {<span style="cursor:auto">progress</span><br>
+body {span style="cursor:auto",progress, /span, br;
 <span style="cursor:progress">pointer</span><br>
   <span style="cursor:pointer">crosshair</span><br>}
 body{color:black;}
