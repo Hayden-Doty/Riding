@@ -2,7 +2,10 @@ h1 {text-align: center;color: #3b5d3a;}
 h1{font-family: "Courier New", Monospace;}
 body {background-color: #f7f9fc;}
 body{color:black;}
-* Dropdown Button */
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -12,28 +15,25 @@ body{color:black;}
     cursor: pointer;
 }
 
-/* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
     background-color: #3e8e41;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
+    overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -41,11 +41,25 @@ body{color:black;}
     display: block;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown a:hover {background-color: #f1f1f1}
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+</style>
+</head>
+<body>
+
+<h2>Clickable Dropdown</h2>
+<p>Click on the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
 <script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
@@ -53,7 +67,7 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// Close the dropdown menu if the user clicks outside of it
+// Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
 
@@ -67,6 +81,11 @@ window.onclick = function(event) {
     }
   }
 }
+</script>
+
+</body>
+</html>
+
 </script>
 A {COLOR: #590f16;}
 A:hover {color: #fbff38;}
