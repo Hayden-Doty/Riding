@@ -46,6 +46,7 @@ body{color:black;}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+<script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {
@@ -66,6 +67,7 @@ window.onclick = function(event) {
     }
   }
 }
+</script>
 A {COLOR: #590f16;}
 A:hover {color: #fbff38;}
 div.link{ float:right; width="50%";}
