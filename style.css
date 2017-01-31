@@ -4,5 +4,5 @@ body {background-color: #f7f9fc;}
 body{color:black;}
 A {COLOR: #590f16;}
 A:hover {color: #fbff38;}
-div.link{ float:right; width="2px";}
+div.link{ float:right; width=2 px;}
 #page-wrap {width:50%; margin: 0 auto;}
