@@ -4,5 +4,4 @@ body {background-color: #f7f9fc;}
 body{color:black;}
 A {COLOR: #590f16;}
 A:hover {color: #fbff38;}
-div.menu{ float:right; width=100px;}
-#page-wrap {width:50%; margin: 0 auto;}
+div.menu{ float:right; width="100px";}
